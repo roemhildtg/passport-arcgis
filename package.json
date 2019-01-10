@@ -2,7 +2,14 @@
   "name": "passport-arcgis",
   "version": "0.1.8",
   "description": "ArcGIS authentication strategy for Passport.",
-  "keywords": ["passport", "arcgis", "auth", "authn", "authentication", "identity"],
+  "keywords": [
+    "passport",
+    "arcgis",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/DavidSpriggs/passport-arcgis.git"
@@ -15,13 +22,14 @@
     "email": "spriggs.d@gmail.com",
     "url": "http://latitudeagile.com/"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib/passport-arcgis",
   "dependencies": {
-    "pkginfo": "0.2.x",
     "passport-oauth": "1.0.0"
   },
   "devDependencies": {
@@ -30,5 +38,7 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
